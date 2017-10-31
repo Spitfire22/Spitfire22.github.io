@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+}
+
+#zen-intro {
+    background-color: #004F2D;
+    color: #fff;
+}
+header h1 {
+    font-size: 50px;
+}
+header h2 {
+    font-size: 25px;
+}
+
+header {
+    padding: 25px;
+}
+
+#zen-summary {
+    background-color: #0A8754;
+    padding: 25px;
+    font-size: 18px;
+    /* margin: 35px; */
+}
+
+#zen-preamble {
+    background-color: #508CA4;
+    padding: 25px;
+    font-size: 18px;
+    /* margin: 35px; */
+}
+
+#design-selection {
+    background-color: #508CA4;
+    color: #fff;
+    padding: 25px;
+    font-size: 19px;
+}
+
+#design-archives {
+    background-color: #0A8754;
+    color: #fff;
+    padding: 25px;
+    font-size: 19px;
+}
+
+#zen-resources {
+    background-color: #004F2D;
+    color: #fff;
+    padding: 25px;
+    font-size: 19px;
+}
+
+#zen-supporting {
+    border-radius: 25px;
+    border:2px solid #2F4858;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 15px;
+}
+
+a {
+    color: #63D471;
+    text-decoration: none;
+}

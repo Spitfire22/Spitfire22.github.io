@@ -1,0 +1,60 @@
+body {
+	height:100vh;
+    margin: 0;
+}
+
+div div {
+	width:100px;
+	height:100px;
+	background: #465C69;
+	border-radius:50%;
+    position: fixed;
+    left: 20px;
+}
+
+nav {
+	border-bottom:solid;
+	background:#333;
+    position: fixed;
+    top: 0px;
+    z-index:1
+}
+
+nav > div {
+	height:120px;
+}
+
+nav {
+	width:100%;
+}
+
+h1 {
+    text-align: right;
+    position: relative;
+    top: 80px;
+    right: 20px;
+}
+
+ul {
+	border-right: solid;
+	width: 100px;
+	height: 100%;
+	padding: 10px 0;
+	margin-top: 60px;
+    position: relative;
+    top: 80px;
+    left: 10px;
+    list-style: none;
+}
+
+
+ul li:hover {
+	color: #465C69;
+}
+
+img {
+	width:500px;
+    position: absolute;
+    left:320px;
+    top: 250px;
+}

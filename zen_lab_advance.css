@@ -1,0 +1,113 @@
+/*  This is the advanced version of the CSS Zen Garden Lab */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#zen-intro {
+
+}
+
+header h1 {
+    color: #00A6A6;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 400;
+    margin: 50px 5px 5px 5px;
+}
+
+header h2 {
+    color: #00A6A6;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 5px 5px;
+}
+
+#zen-summary {
+    text-align: center;
+    color: #037971;
+    font-weight: initial;
+    margin: 5px 150px;
+}
+
+#zen-preamble {
+    color: #fff;
+    margin: 20px 80px;
+    padding: 25px;
+    background-color: #F4970A;
+    box-shadow: 10px 10px #EFCA08;
+    font-weight: lighter;
+}
+
+#zen-supporting {
+}
+
+#zen-explanation {
+    color: #fff;
+    margin: 20px 80px;
+    padding: 25px;
+    background-color: #EFCA08;
+    box-shadow: 10px 10px #F4970A;
+    font-weight: lighter;
+}
+
+#zen-participation {
+    color: #fff;
+    margin: 20px 80px;
+    padding: 25px;
+    background-color: #F4970A;
+    box-shadow: 10px 10px #EFCA08;
+    font-weight: lighter;
+}
+
+#zen-benefits {
+    color: #fff;
+    margin: 20px 80px;
+    padding: 25px;
+    background-color: #EFCA08;
+    box-shadow: 10px 10px #F4970A;
+    font-weight: lighter;
+}
+
+#zen-requirements {
+    color: #fff;
+    margin: 20px 80px;
+    padding: 25px;
+    background-color: #F4970A;
+    box-shadow: 10px 10px #EFCA08;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: #B72135;
+    padding: 25px;
+}
+
+#design-selection {
+    background-color: #D7263D;
+    padding: 40px;
+    color: #fff;
+}
+
+#design-archives {
+    background-color: #F8333C;
+    padding: 40px;
+    color: #fff;
+}
+
+#zen-resources {
+    padding: 40px;
+    background-color: #FF7733;
+    color: #fff;
+}
+
+
+a {
+    color: #EFCA08;
+    text-decoration: none;
+}
