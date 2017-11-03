@@ -1,0 +1,99 @@
+
+/* This is the style sheet I am using on my index page! zOMGs */
+
+/* These are the fonts that I am referencing:
+ font-family: 'Special Elite', cursive;
+ font-family: 'Cabin Sketch', cursive;
+ font-family: 'Lobster', cursive;
+ font-family: 'VT323', monospace;
+ font-family: 'Monoton', cursive;
+ */
+
+
+p.padding {
+    padding-left:1cm
+}
+
+.centertext {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+#heading {
+    font-family: 'Monoton', cursive;
+    font-size: 400%;
+    word-spacing: 400%;
+    display: flex;
+}
+
+table {
+    margin: auto;
+}
+
+body {
+    margin: 0;
+}
+.page-wrapper {
+    background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-position: center;
+}
+
+.navibarUl {
+    list-style-type: none;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cyan;
+}
+
+.navibarLi_a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navibarLi {
+    float: left;
+    border-right: 1px solid #bbbbbb;
+}
+
+.navibarLi:hover {
+    background-color:darkcyan;
+}
+
+.pageheader {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.page-intro {
+    font-family: 'Special Elite';
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+/*p.page-intro::first-line {*/
+    /*color: #ff0000;*/
+    /*font-size:200%;*/
+/*}*/
+
+tbody tr {
+
+}
+
+* {
+    box-sizing: border-box
+}
