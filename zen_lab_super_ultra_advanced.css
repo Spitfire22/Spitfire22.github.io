@@ -1,0 +1,90 @@
+/* This is the hyper advanced lab for the CSS Zen Garden*/
+
+* {
+    font-family: 'Muli', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/lined-paper.png")
+}
+
+
+#zen-intro img {
+    position: static;
+    width: 100px;
+    height: auto;
+
+}
+
+#zen-intro img:nth-child(2) {
+    position: static;
+    width:600px;
+    height: 100px;
+    background-repeat: repeat-x;
+}
+
+
+header h1 {
+    text-align: center;
+    font-size: 55px;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 55px;
+}
+
+/* This image is not repeating and not getting cut off on the edges.
+    Play with it and figure out why. right now it follows the paper airplane. */
+
+#zen-summary img {
+    background-image: url("https://i.pinimg.com/originals/d0/98/bc/d098bc74fe68d594926e962de0ea3a45.png");
+    width: auto;
+    height: 100px;
+    background-repeat: repeat-x;
+}
+
+
+
+#zen-preamble {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 40px;
+}
+
+/* Make the first word in each paragraph a larger font and red in color. */
+
+#zen-supporting {
+    font-size: 25px;
+    margin: 20px 40px;
+}
+
+
+/* this is the bottom of the page */
+/* There needs to be a dashed seperator here */
+/* The following sections have the lists indented which is why they're not
+  in the middle of the page... */
+#design-selection {
+    text-align: center;
+    font-size: 25px;
+}
+#design-selection ul{
+    list-style: none;
+}
+
+#design-archives {
+    text-align: center;
+    font-size: 25px;
+}
+#design-archives ul{
+    list-style: none;
+}
+
+#zen-resources {
+    text-align: center;
+    font-size: 25px;
+}
+#zen-resources ul{
+    list-style: none;
+}
